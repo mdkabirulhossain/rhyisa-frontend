@@ -31,22 +31,20 @@ const LogoMarquee = () => {
         speed={40}
         pauseOnHover={true}
       >
-        <div className="flex items-center gap-16 px-10 md:gap-24">
-          {logos.map((logo, index) => (
-            <div
-              key={index}
-              className="flex items-center justify-center opacity-40 grayscale transition-opacity duration-300 hover:opacity-100"
-            >
-              <Image
-                src={logo}
-                alt={`Provider Logo ${index + 1}`}
-                width={120}
-                height={40}
-                className="h-8 w-auto object-contain md:h-10"
-              />
-            </div>
-          ))}
-        </div>
+        {logos.map((logo, index) => (
+          <div
+            key={index}
+            className="mx-8 flex items-center justify-center opacity-40 grayscale transition-opacity duration-300 hover:opacity-100 md:mx-12"
+          >
+            <Image
+              src={logo}
+              alt={`Provider Logo ${index + 1}`}
+              width={120}
+              height={40}
+              className="h-6 w-auto object-contain sm:h-8 md:h-10"
+            />
+          </div>
+        ))}
       </Marquee>
     </section>
   );
