@@ -30,6 +30,7 @@ const LogoMarquee = () => {
         gradientWidth={100}
         speed={40}
         pauseOnHover={true}
+        autoFill={true}
       >
         {logos.map((logo, index) => (
           <div
