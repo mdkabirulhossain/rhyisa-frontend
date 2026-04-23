@@ -1,7 +1,21 @@
+import { CTA } from './_components/CTA';
+import { Experience } from './_components/Experience';
+import { Features } from './_components/Features';
+import { Hero } from './_components/Hero';
+import { HowItWorks } from './_components/HowItWorks';
+import LogoMarquee from './_components/LogoMarquee';
+
 const HomePage = () => {
-  // const a = 5;
-  // console.log("hello")
-  return <div className="bg-green-300 px-3 text-4xl font-medium sm:px-4">HomePage</div>;
+  return (
+    <div>
+      <Hero />
+      <LogoMarquee />
+      <HowItWorks />
+      <Features />
+      <Experience />
+      <CTA />
+    </div>
+  );
 };
 
 export default HomePage;
