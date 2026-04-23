@@ -1,4 +1,5 @@
 import { CTA } from './_components/CTA';
+import { Experience } from './_components/Experience';
 import { Features } from './_components/Features';
 import { Hero } from './_components/Hero';
 import { HowItWorks } from './_components/HowItWorks';
@@ -11,6 +12,7 @@ const HomePage = () => {
       <LogoMarquee />
       <HowItWorks />
       <Features />
+      <Experience />
       <CTA />
     </div>
   );

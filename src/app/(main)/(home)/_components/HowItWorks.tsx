@@ -88,7 +88,7 @@ export const HowItWorks = () => {
                 <div className="relative z-10">{step.icon}</div>
               </div>
 
-              <h3 className="mb-4 max-w-50 text-xl font-bold text-[#37261C]">{step.title}</h3>
+              <h3 className="mb-4 text-xl font-bold text-[#37261C]">{step.title}</h3>
               <p className="max-w-70 text-[15px] leading-relaxed text-[#5F5149]">{step.desc}</p>
             </div>
           ))}
