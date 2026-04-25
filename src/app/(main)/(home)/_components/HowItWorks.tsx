@@ -60,10 +60,12 @@ const steps = [
 
 export const HowItWorks = () => {
   return (
-    <section className="bg-site-bg px-8 py-32 text-center">
+    <section className="bg-site-bg px-8 py-16 text-center md:py-32">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-4 text-4xl font-bold text-[#37261C] md:text-5xl">How it works</h2>
-        <p className="mb-24 text-lg text-[#5F5149]">
+        <h2 className="text-heading-main mb-4 text-3xl font-bold sm:text-4xl md:text-5xl">
+          How it works
+        </h2>
+        <p className="text-text-main mb-12 text-base sm:mb-24 sm:text-lg">
           Three simple steps to take control of your health journey.
         </p>
 

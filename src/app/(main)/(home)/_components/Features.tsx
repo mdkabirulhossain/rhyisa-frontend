@@ -79,13 +79,13 @@ const features = [
 
 export const Features = () => {
   return (
-    <section className="bg-site-bg px-8 py-32">
+    <section className="bg-site-bg px-8 py-16 md:py-32">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-20 text-center">
-          <h2 className="mb-6 text-3xl font-bold text-[#37261C] sm:text-4xl md:text-5xl">
+        <div className="mb-12 text-center md:mb-20">
+          <h2 className="text-heading-main mb-6 text-3xl font-bold sm:text-4xl md:text-5xl">
             Why choose HealthAI?
           </h2>
-          <p className="mx-auto max-w-lg text-base text-[#5F5149] sm:text-lg">
+          <p className="text-text-main mx-auto max-w-lg text-base sm:text-lg">
             Designed to simplify your life while improving your wellbeing.
           </p>
         </div>

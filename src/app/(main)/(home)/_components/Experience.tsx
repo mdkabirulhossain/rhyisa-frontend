@@ -3,12 +3,14 @@ import Image from 'next/image';
 
 export const Experience = () => {
   return (
-    <section className="bg-site-bg w-full overflow-hidden px-8 py-24 md:py-32">
+    <section className="bg-site-bg w-full overflow-hidden px-6 py-16 md:px-8 md:py-32">
       <div className="mx-auto max-w-7xl">
         {/* Header Text */}
-        <div className="mb-16 space-y-4 text-center">
-          <h2 className="text-4xl font-bold text-[#37261C] md:text-5xl">A Beautiful Experience</h2>
-          <p className="mx-auto max-w-lg text-lg leading-relaxed text-[#5F5149]">
+        <div className="mb-12 space-y-4 text-center md:mb-16">
+          <h2 className="text-heading-main text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+            A Beautiful Experience
+          </h2>
+          <p className="text-text-main mx-auto max-w-lg text-base leading-relaxed sm:text-lg">
             Designed with care to make managing your health feel effortless.
           </p>
         </div>
