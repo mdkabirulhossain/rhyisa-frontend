@@ -1,25 +1,42 @@
+import Image from 'next/image';
+
 export const CTA = () => {
   return (
     <section className="px-8 py-20">
-      <div className="relative mx-auto max-w-6xl overflow-hidden rounded-[40px] bg-[#A37B5B] p-12 text-center text-white">
-        <h2 className="mb-6 text-4xl font-bold">Start your health journey today</h2>
-        <p className="mx-auto mb-10 max-w-2xl text-white/80">
-          Join hundreds of thousands of users who are taking control of their health, finding better
-          care, and saving money.
+      <div className="mx-auto max-w-5xl rounded-[40px] bg-[#9F6E4D] px-8 py-16 text-center text-white">
+        {/* Main Heading */}
+        <h2 className="mb-4 text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+          Start your health journey today
+        </h2>
+
+        {/* Description */}
+        <p className="mx-auto mb-10 max-w-2xl text-base leading-relaxed text-white/80 md:text-lg md:text-white/90">
+          Join hundreds of thousands of users who are taking control of their health,
+          <br className="hidden md:block" /> finding better care, and saving money.
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <button className="flex items-center gap-2 rounded-xl bg-black px-6 py-3">
-            <span className="text-left text-xs leading-none">
-              Download on the <br />
-              <span className="text-lg font-bold">App Store</span>
-            </span>
-          </button>
-          <button className="flex items-center gap-2 rounded-xl bg-black px-6 py-3">
-            <span className="text-left text-xs leading-none">
-              GET IT ON <br />
-              <span className="text-lg font-bold">Google Play</span>
-            </span>
-          </button>
+
+        {/* App Store Badges using Next.js Image */}
+        <div className="flex flex-row items-center justify-center gap-3 sm:gap-4">
+          <a href="#" className="transition-opacity" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/home/google-play.png"
+              alt="Get it on Google Play"
+              width={160}
+              height={48}
+              className="h-11 w-36 object-contain sm:h-12 sm:w-auto"
+              priority
+            />
+          </a>
+          <a href="#" className="transition-opacity">
+            <Image
+              src="/home/apple-store.png"
+              alt="Download on the App Store"
+              width={160}
+              height={48}
+              className="h-11 w-36 object-contain sm:h-12 sm:w-auto"
+              priority
+            />
+          </a>
         </div>
       </div>
     </section>
