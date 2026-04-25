@@ -40,7 +40,7 @@ export const Navbar = () => {
             How It Works
           </Link>
           <Link
-            href="#benefits"
+            href="#features"
             className="text-heading-main hover:text-highlight-main text-[15px] font-medium transition-colors"
           >
             Benefits
@@ -85,7 +85,7 @@ export const Navbar = () => {
               How It Works
             </Link>
             <Link
-              href="#benefits"
+              href="#features"
               onClick={() => setIsOpen(false)}
               className="text-heading-main hover:text-highlight-main text-lg font-medium transition-colors"
             >
