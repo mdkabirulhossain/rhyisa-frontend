@@ -79,7 +79,7 @@ const features = [
 
 export const Features = () => {
   return (
-    <section className="bg-site-bg px-8 py-16 md:py-32">
+    <section id="features" className="bg-site-bg px-8 py-16 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center md:mb-20">
           <h2 className="text-heading-main mb-6 text-3xl font-bold sm:text-4xl md:text-5xl">

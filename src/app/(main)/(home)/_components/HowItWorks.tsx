@@ -60,7 +60,7 @@ const steps = [
 
 export const HowItWorks = () => {
   return (
-    <section className="bg-site-bg px-8 py-16 text-center md:py-32">
+    <section id="how-it-works" className="bg-site-bg px-8 py-16 text-center md:py-32">
       <div className="mx-auto max-w-7xl">
         <h2 className="text-heading-main mb-4 text-3xl font-bold sm:text-4xl md:text-5xl">
           How it works
